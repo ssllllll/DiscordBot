@@ -1,0 +1,73 @@
+{
+	"name": "@eartharoid/discord-tickets",
+	"version": "3.0.0",
+	"private": true,
+	"description": "An open-source Discord bot for ticket management",
+	"main": "src/index.js",
+	"scripts": {
+		"contributors:add": "all-contributors add",
+    	"contributors:generate": "all-contributors generate",
+		"lint": "eslint src --fix",
+		"start": "node src/",
+		"test": "echo \"Nothing to test! Run with 'npm start'\" && exit 1"
+	},
+	"engines": {
+		"node": ">=14"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/discord-tickets/bot.git"
+	},
+	"keywords": [
+		"discord",
+		"tickets",
+		"bot"
+	],
+	"author": "eartharoid",
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/discord-tickets/bot/issues"
+	},
+	"homepage": "https://discordtickets.app",
+	"funding": "https://github.com/discord-tickets/bot/?sponsor=1",
+	"dependencies": {
+		"@eartharoid/i18n": "^1.0.0",
+		"boxen": "^5.0.0",
+		"command-line-args": "^5.1.1",
+		"cryptr": "^6.0.2",
+		"discord.js": "^12.5.1",
+		"dotenv": "^8.2.0",
+		"jsonschema": "^1.4.0",
+		"keyv": "^4.0.3",
+		"leeks.js": "^0.2.2",
+		"leekslazylogger-fastify": "^0.1.1",
+		"mustache": "^4.2.0",
+		"node-emoji": "^1.10.0",
+		"node-fetch": "^2.6.1",
+		"semver": "^7.3.4",
+		"sequelize": "^6.5.0",
+		"string-argv": "^0.3.1",
+		"terminal-link": "^2.1.1",
+		"to-time-monthsfork": "^1.1.4"
+	},
+	"devDependencies": {
+		"all-contributors-cli": "^6.20.0",
+		"eslint": "^7.21.0",
+		"mariadb": "^2.5.2",
+		"mysql2": "^2.2.5",
+		"nodemon": "^2.0.7",
+		"pg": "^8.5.1",
+		"pg-hstore": "^2.3.3",
+		"tedious": "^11.0.3"
+	},
+	"optionalDependencies": {
+		"sqlite3": "^5.0.2"
+	},
+	"peerDependencies": {
+		"mariadb": "^2.5.2",
+		"mysql2": "^2.2.5",
+		"pg": "^8.5.1",
+		"pg-hstore": "^2.3.3",
+		"tedious": "^11.0.3"
+	}
+}
